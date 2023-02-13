@@ -1,1 +1,1 @@
-create hello world
+hello world script
