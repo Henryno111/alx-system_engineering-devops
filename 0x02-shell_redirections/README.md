@@ -1,1 +1,1 @@
-hello world script
+create readme script
