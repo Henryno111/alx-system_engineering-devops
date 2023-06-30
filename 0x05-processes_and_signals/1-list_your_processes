@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# display list of currrently running processes
+
+
+echo "PID USER %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND"
+
+ps auxf
+
