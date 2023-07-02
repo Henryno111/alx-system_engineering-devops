@@ -5,4 +5,3 @@
 for pid in $(pgrep bash); do
     echo "PID: $pid - Process Name: $(ps -p $pid -o comm=)"
 done
-
