@@ -1,4 +1,4 @@
 0x0C. Web server
 DevOps
 SysAdmin 
-correction made in installation
+correction made in installation and server update
