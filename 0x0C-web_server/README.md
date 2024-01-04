@@ -1,4 +1,5 @@
 Web servers
 HTTP requests 
-insatll nginx 
+install nginx 
 transfer file to server from client
+
