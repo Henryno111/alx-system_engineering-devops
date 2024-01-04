@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-#A script that installs nginx on my web-01 server:
-#Nginx should be listening on port 80.
-#It should return a page that contains the string "Hello World!" at the root
-#with a curl GET request.
+A script that installs nginx on my web-01 server:
+Nginx should be listening on port 80.
+It should return a page that contains the string "Hello World!" at the root
+with a curl GET request.
 apt-get update
 apt-get install -y nginx
 
@@ -18,5 +18,3 @@ printf %s "server {
 " > /etc/nginx/sites-available/default
 
 service nginx restart
-
-Message @IDIATA AUGUSTUS, EROMOSELE
