@@ -3,8 +3,8 @@
 #Nginx should be listening on port 80.
 #It should return a page that contains the string "Hello World!" at the root
 #with a curl GET request.
-#apt-get update
-#apt-get install -y nginx
+apt-get update
+apt-get install -y nginx
 
 mkdir /etc/nginx/html
 touch /etc/nginx/html/index.html
