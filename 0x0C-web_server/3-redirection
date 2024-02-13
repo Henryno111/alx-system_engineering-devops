@@ -40,7 +40,7 @@ echo "server {
 }" | sudo tee /etc/nginx/sites-available/redirect
 
 # Enable the new site configuration
-sudo ln -s /etc/nginx/sites-available/redirect /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/redirect/etc/nginx/sites-enabled/
 
 
 # Test Nginx configuration and reload
